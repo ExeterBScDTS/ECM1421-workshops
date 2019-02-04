@@ -17,6 +17,9 @@ print("Counted " + str(count) + " lines.")
 
 
 def mean_length(my_file):
+    """
+    Read all lines in my_file and return the average length in characters.
+    """
     count = 0
     mean = 0.0
     total = 0.0
